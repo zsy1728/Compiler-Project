@@ -1,0 +1,17 @@
+first A = a h v y z 
+first B = a h v y z 
+first C = 2 m 
+first D = a h y z 
+first E = 2 @ a f h w y z 
+first F = 2 ; 
+first G = 2 
+first H = 2 @ 
+first I = 2 3 k 
+first N = 2 
+first Q = * + - / 
+first R = @ r 
+first S = < > 
+first T = a h y z 
+first W = f w 
+first X = 2 
+first Y = 2 3 

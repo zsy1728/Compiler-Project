@@ -1,0 +1,22 @@
+int main()
+{
+	int a = 0;
+	a = 3 ;
+	a = 1.1;
+	a = 3 + a;
+	a = 123i;
+	a = 1.2e10;
+	a = 12i + 1e10;
+	int b ;
+	b = 10;
+	while(b)
+	{
+		b = b - 1;
+	}
+	int c = 0;
+	for(c = 0; c <= 12; c = c + 1){
+		a = 4;
+	}
+	
+	return 1;	
+}

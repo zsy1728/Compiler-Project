@@ -1,0 +1,1850 @@
+I0:
+S->，A , #
+A->，BC(){ER} , #
+B->，a , 2
+B->，a , m
+B->，z , 2
+B->，z , m
+B->，y , 2
+B->，y , m
+B->，h , 2
+B->，h , m
+B->，v , 2
+B->，v , m
+
+I1:
+B->a， , 2
+B->a， , m
+
+I2:
+B->h， , 2
+B->h， , m
+
+I3:
+B->v， , 2
+B->v， , m
+
+I4:
+B->y， , 2
+B->y， , m
+
+I5:
+B->z， , 2
+B->z， , m
+
+I6:
+S->A， , #
+
+I7:
+A->B，C(){ER} , #
+C->，m , (
+C->，2 , (
+
+I8:
+C->2， , (
+
+I9:
+C->m， , (
+
+I10:
+A->BC，(){ER} , #
+
+I11:
+A->BC(，){ER} , #
+
+I12:
+A->BC()，{ER} , #
+
+I13:
+A->BC(){，ER} , #
+E->，WE , r
+E->，WE , }
+E->，XE , r
+E->，XE , }
+E->，TE , r
+E->，TE , }
+E->，@ , r
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , r
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , r
+W->，w(Y){E} , }
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , r
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , r
+X->，2=YQY; , }
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , r
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , r
+T->，DN; , }
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I14:
+X->2，=YQY; , 2
+X->2，=YQY; , a
+X->2，=YQY; , f
+X->2，=YQY; , h
+X->2，=YQY; , w
+X->2，=YQY; , y
+X->2，=YQY; , z
+X->2，=YQY; , r
+X->2，=Y; , 2
+X->2，=Y; , a
+X->2，=Y; , f
+X->2，=Y; , h
+X->2，=Y; , w
+X->2，=Y; , y
+X->2，=Y; , z
+X->2，=Y; , r
+X->2，=YQY; , }
+X->2，=Y; , }
+
+I15:
+D->a， , 2
+
+I16:
+W->f，(F){E} , 2
+W->f，(F){E} , a
+W->f，(F){E} , f
+W->f，(F){E} , h
+W->f，(F){E} , w
+W->f，(F){E} , y
+W->f，(F){E} , z
+W->f，(F){E} , r
+W->f，(F){E} , }
+
+I17:
+D->h， , 2
+
+I18:
+W->w，(Y){E} , 2
+W->w，(Y){E} , a
+W->w，(Y){E} , f
+W->w，(Y){E} , h
+W->w，(Y){E} , w
+W->w，(Y){E} , y
+W->w，(Y){E} , z
+W->w，(Y){E} , r
+W->w，(Y){E} , }
+
+I19:
+D->y， , 2
+
+I20:
+D->z， , 2
+
+I21:
+T->D，N; , 2
+T->D，N; , a
+T->D，N; , f
+T->D，N; , h
+T->D，N; , w
+T->D，N; , y
+T->D，N; , z
+T->D，N; , r
+T->D，N=Y; , 2
+T->D，N=Y; , a
+T->D，N=Y; , f
+T->D，N=Y; , h
+T->D，N=Y; , w
+T->D，N=Y; , y
+T->D，N=Y; , z
+T->D，N=Y; , r
+T->D，N; , }
+T->D，N=Y; , }
+N->，2 , ;
+N->，2,N , ;
+N->，2 , =
+N->，2,N , =
+
+I22:
+A->BC(){E，R} , #
+R->，r3; , }
+R->，@ , }
+
+I23:
+E->T，E , r
+E->T，E , }
+E->，WE , r
+E->，XE , r
+E->，TE , r
+E->，@ , r
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , r
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , r
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , r
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , r
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , r
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , r
+W->，w(Y){E} , }
+W->，f(F){E} , }
+X->，2=YQY; , }
+X->，2=Y; , }
+T->，DN; , }
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I24:
+E->W，E , r
+E->W，E , }
+E->，WE , r
+E->，XE , r
+E->，TE , r
+E->，@ , r
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , r
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , r
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , r
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , r
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , r
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , r
+W->，w(Y){E} , }
+W->，f(F){E} , }
+X->，2=YQY; , }
+X->，2=Y; , }
+T->，DN; , }
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I25:
+E->X，E , r
+E->X，E , }
+E->，WE , r
+E->，XE , r
+E->，TE , r
+E->，@ , r
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , r
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , r
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , r
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , r
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , r
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , r
+W->，w(Y){E} , }
+W->，f(F){E} , }
+X->，2=YQY; , }
+X->，2=Y; , }
+T->，DN; , }
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I26:
+X->2=，YQY; , 2
+X->2=，YQY; , a
+X->2=，YQY; , f
+X->2=，YQY; , h
+X->2=，YQY; , w
+X->2=，YQY; , y
+X->2=，YQY; , z
+X->2=，YQY; , r
+X->2=，Y; , 2
+X->2=，Y; , a
+X->2=，Y; , f
+X->2=，Y; , h
+X->2=，Y; , w
+X->2=，Y; , y
+X->2=，Y; , z
+X->2=，Y; , r
+X->2=，YQY; , }
+X->2=，Y; , }
+Y->，2 , *
+Y->，2 , +
+Y->，2 , -
+Y->，2 , /
+Y->，3 , *
+Y->，3 , +
+Y->，3 , -
+Y->，3 , /
+Y->，2 , ;
+Y->，3 , ;
+
+I27:
+W->f(，F){E} , 2
+W->f(，F){E} , a
+W->f(，F){E} , f
+W->f(，F){E} , h
+W->f(，F){E} , w
+W->f(，F){E} , y
+W->f(，F){E} , z
+W->f(，F){E} , r
+W->f(，F){E} , }
+F->，H;I;H , )
+H->，2=YQY , ;
+H->，2=Y , ;
+H->，@ , ;
+
+I28:
+W->w(，Y){E} , 2
+W->w(，Y){E} , a
+W->w(，Y){E} , f
+W->w(，Y){E} , h
+W->w(，Y){E} , w
+W->w(，Y){E} , y
+W->w(，Y){E} , z
+W->w(，Y){E} , r
+W->w(，Y){E} , }
+Y->，2 , )
+Y->，3 , )
+
+I29:
+N->2， , ;
+N->2，,N , ;
+N->2， , =
+N->2，,N , =
+
+I30:
+T->DN，; , 2
+T->DN，; , a
+T->DN，; , f
+T->DN，; , h
+T->DN，; , w
+T->DN，; , y
+T->DN，; , z
+T->DN，; , r
+T->DN，=Y; , 2
+T->DN，=Y; , a
+T->DN，=Y; , f
+T->DN，=Y; , h
+T->DN，=Y; , w
+T->DN，=Y; , y
+T->DN，=Y; , z
+T->DN，=Y; , r
+T->DN，; , }
+T->DN，=Y; , }
+
+I31:
+R->r，3; , }
+
+I32:
+A->BC(){ER，} , #
+
+I33:
+E->TE， , r
+E->TE， , }
+
+I34:
+E->WE， , r
+E->WE， , }
+
+I35:
+E->XE， , r
+E->XE， , }
+
+I36:
+Y->2， , *
+Y->2， , +
+Y->2， , -
+Y->2， , /
+Y->2， , ;
+
+I37:
+Y->3， , *
+Y->3， , +
+Y->3， , -
+Y->3， , /
+Y->3， , ;
+
+I38:
+X->2=Y，QY; , 2
+X->2=Y，QY; , a
+X->2=Y，QY; , f
+X->2=Y，QY; , h
+X->2=Y，QY; , w
+X->2=Y，QY; , y
+X->2=Y，QY; , z
+X->2=Y，QY; , r
+X->2=Y，; , 2
+X->2=Y，; , a
+X->2=Y，; , f
+X->2=Y，; , h
+X->2=Y，; , w
+X->2=Y，; , y
+X->2=Y，; , z
+X->2=Y，; , r
+X->2=Y，QY; , }
+X->2=Y，; , }
+Q->，+ , 2
+Q->，+ , 3
+Q->，- , 2
+Q->，- , 3
+Q->，* , 2
+Q->，* , 3
+Q->，/ , 2
+Q->，/ , 3
+
+I39:
+H->2，=YQY , ;
+H->2，=Y , ;
+
+I40:
+W->f(F，){E} , 2
+W->f(F，){E} , a
+W->f(F，){E} , f
+W->f(F，){E} , h
+W->f(F，){E} , w
+W->f(F，){E} , y
+W->f(F，){E} , z
+W->f(F，){E} , r
+W->f(F，){E} , }
+
+I41:
+F->H，;I;H , )
+
+I42:
+Y->2， , )
+
+I43:
+Y->3， , )
+
+I44:
+W->w(Y，){E} , 2
+W->w(Y，){E} , a
+W->w(Y，){E} , f
+W->w(Y，){E} , h
+W->w(Y，){E} , w
+W->w(Y，){E} , y
+W->w(Y，){E} , z
+W->w(Y，){E} , r
+W->w(Y，){E} , }
+
+I45:
+N->2,，N , ;
+N->2,，N , =
+N->，2 , ;
+N->，2,N , ;
+N->，2 , =
+N->，2,N , =
+
+I46:
+T->DN;， , 2
+T->DN;， , a
+T->DN;， , f
+T->DN;， , h
+T->DN;， , w
+T->DN;， , y
+T->DN;， , z
+T->DN;， , r
+T->DN;， , }
+
+I47:
+T->DN=，Y; , 2
+T->DN=，Y; , a
+T->DN=，Y; , f
+T->DN=，Y; , h
+T->DN=，Y; , w
+T->DN=，Y; , y
+T->DN=，Y; , z
+T->DN=，Y; , r
+T->DN=，Y; , }
+Y->，2 , ;
+Y->，3 , ;
+
+I48:
+R->r3，; , }
+
+I49:
+A->BC(){ER}， , #
+
+I50:
+Q->*， , 2
+Q->*， , 3
+
+I51:
+Q->+， , 2
+Q->+， , 3
+
+I52:
+Q->-， , 2
+Q->-， , 3
+
+I53:
+Q->/， , 2
+Q->/， , 3
+
+I54:
+X->2=Y;， , 2
+X->2=Y;， , a
+X->2=Y;， , f
+X->2=Y;， , h
+X->2=Y;， , w
+X->2=Y;， , y
+X->2=Y;， , z
+X->2=Y;， , r
+X->2=Y;， , }
+
+I55:
+X->2=YQ，Y; , 2
+X->2=YQ，Y; , a
+X->2=YQ，Y; , f
+X->2=YQ，Y; , h
+X->2=YQ，Y; , w
+X->2=YQ，Y; , y
+X->2=YQ，Y; , z
+X->2=YQ，Y; , r
+X->2=YQ，Y; , }
+Y->，2 , ;
+Y->，3 , ;
+
+I56:
+H->2=，YQY , ;
+H->2=，Y , ;
+Y->，2 , *
+Y->，2 , +
+Y->，2 , -
+Y->，2 , /
+Y->，3 , *
+Y->，3 , +
+Y->，3 , -
+Y->，3 , /
+Y->，2 , ;
+Y->，3 , ;
+
+I57:
+W->f(F)，{E} , 2
+W->f(F)，{E} , a
+W->f(F)，{E} , f
+W->f(F)，{E} , h
+W->f(F)，{E} , w
+W->f(F)，{E} , y
+W->f(F)，{E} , z
+W->f(F)，{E} , r
+W->f(F)，{E} , }
+
+I58:
+F->H;，I;H , )
+I->，k , ;
+I->，YSY , ;
+Y->，2 , <
+Y->，2 , >
+Y->，3 , <
+Y->，3 , >
+
+I59:
+W->w(Y)，{E} , 2
+W->w(Y)，{E} , a
+W->w(Y)，{E} , f
+W->w(Y)，{E} , h
+W->w(Y)，{E} , w
+W->w(Y)，{E} , y
+W->w(Y)，{E} , z
+W->w(Y)，{E} , r
+W->w(Y)，{E} , }
+
+I60:
+N->2,N， , ;
+N->2,N， , =
+
+I61:
+Y->2， , ;
+
+I62:
+Y->3， , ;
+
+I63:
+T->DN=Y，; , 2
+T->DN=Y，; , a
+T->DN=Y，; , f
+T->DN=Y，; , h
+T->DN=Y，; , w
+T->DN=Y，; , y
+T->DN=Y，; , z
+T->DN=Y，; , r
+T->DN=Y，; , }
+
+I64:
+R->r3;， , }
+
+I65:
+X->2=YQY，; , 2
+X->2=YQY，; , a
+X->2=YQY，; , f
+X->2=YQY，; , h
+X->2=YQY，; , w
+X->2=YQY，; , y
+X->2=YQY，; , z
+X->2=YQY，; , r
+X->2=YQY，; , }
+
+I66:
+H->2=Y，QY , ;
+H->2=Y， , ;
+Q->，+ , 2
+Q->，+ , 3
+Q->，- , 2
+Q->，- , 3
+Q->，* , 2
+Q->，* , 3
+Q->，/ , 2
+Q->，/ , 3
+
+I67:
+W->f(F){，E} , 2
+W->f(F){，E} , a
+W->f(F){，E} , f
+W->f(F){，E} , h
+W->f(F){，E} , w
+W->f(F){，E} , y
+W->f(F){，E} , z
+W->f(F){，E} , r
+W->f(F){，E} , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I68:
+Y->2， , <
+Y->2， , >
+
+I69:
+Y->3， , <
+Y->3， , >
+
+I70:
+I->k， , ;
+
+I71:
+F->H;I，;H , )
+
+I72:
+I->Y，SY , ;
+S->，A , 2
+S->，A , 3
+S->，> , 2
+S->，> , 3
+S->，< , 2
+S->，< , 3
+S->，>= , 2
+S->，>= , 3
+S->，<= , 2
+S->，<= , 3
+A->，BC(){ER} , 2
+A->，BC(){ER} , 3
+B->，a , 2
+B->，a , m
+B->，z , 2
+B->，z , m
+B->，y , 2
+B->，y , m
+B->，h , 2
+B->，h , m
+B->，v , 2
+B->，v , m
+
+I73:
+W->w(Y){，E} , 2
+W->w(Y){，E} , a
+W->w(Y){，E} , f
+W->w(Y){，E} , h
+W->w(Y){，E} , w
+W->w(Y){，E} , y
+W->w(Y){，E} , z
+W->w(Y){，E} , r
+W->w(Y){，E} , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I74:
+T->DN=Y;， , 2
+T->DN=Y;， , a
+T->DN=Y;， , f
+T->DN=Y;， , h
+T->DN=Y;， , w
+T->DN=Y;， , y
+T->DN=Y;， , z
+T->DN=Y;， , r
+T->DN=Y;， , }
+
+I75:
+X->2=YQY;， , 2
+X->2=YQY;， , a
+X->2=YQY;， , f
+X->2=YQY;， , h
+X->2=YQY;， , w
+X->2=YQY;， , y
+X->2=YQY;， , z
+X->2=YQY;， , r
+X->2=YQY;， , }
+
+I76:
+H->2=YQ，Y , ;
+Y->，2 , ;
+Y->，3 , ;
+
+I77:
+X->2，=YQY; , 2
+X->2，=YQY; , a
+X->2，=YQY; , f
+X->2，=YQY; , h
+X->2，=YQY; , w
+X->2，=YQY; , y
+X->2，=YQY; , z
+X->2，=YQY; , }
+X->2，=Y; , 2
+X->2，=Y; , a
+X->2，=Y; , f
+X->2，=Y; , h
+X->2，=Y; , w
+X->2，=Y; , y
+X->2，=Y; , z
+X->2，=Y; , }
+
+I78:
+W->f，(F){E} , 2
+W->f，(F){E} , a
+W->f，(F){E} , f
+W->f，(F){E} , h
+W->f，(F){E} , w
+W->f，(F){E} , y
+W->f，(F){E} , z
+W->f，(F){E} , }
+
+I79:
+W->w，(Y){E} , 2
+W->w，(Y){E} , a
+W->w，(Y){E} , f
+W->w，(Y){E} , h
+W->w，(Y){E} , w
+W->w，(Y){E} , y
+W->w，(Y){E} , z
+W->w，(Y){E} , }
+
+I80:
+T->D，N; , 2
+T->D，N; , a
+T->D，N; , f
+T->D，N; , h
+T->D，N; , w
+T->D，N; , y
+T->D，N; , z
+T->D，N; , }
+T->D，N=Y; , 2
+T->D，N=Y; , a
+T->D，N=Y; , f
+T->D，N=Y; , h
+T->D，N=Y; , w
+T->D，N=Y; , y
+T->D，N=Y; , z
+T->D，N=Y; , }
+N->，2 , ;
+N->，2,N , ;
+N->，2 , =
+N->，2,N , =
+
+I81:
+W->f(F){E，} , 2
+W->f(F){E，} , a
+W->f(F){E，} , f
+W->f(F){E，} , h
+W->f(F){E，} , w
+W->f(F){E，} , y
+W->f(F){E，} , z
+W->f(F){E，} , r
+W->f(F){E，} , }
+
+I82:
+E->T，E , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I83:
+E->W，E , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I84:
+E->X，E , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I85:
+F->H;I;，H , )
+H->，2=YQY , )
+H->，2=Y , )
+H->，@ , )
+
+I86:
+S-><， , 2
+S-><， , 3
+S-><，= , 2
+S-><，= , 3
+
+I87:
+S->>， , 2
+S->>， , 3
+S->>，= , 2
+S->>，= , 3
+
+I88:
+S->A， , 2
+S->A， , 3
+
+I89:
+A->B，C(){ER} , 2
+A->B，C(){ER} , 3
+C->，m , (
+C->，2 , (
+
+I90:
+I->YS，Y , ;
+Y->，2 , ;
+Y->，3 , ;
+
+I91:
+W->w(Y){E，} , 2
+W->w(Y){E，} , a
+W->w(Y){E，} , f
+W->w(Y){E，} , h
+W->w(Y){E，} , w
+W->w(Y){E，} , y
+W->w(Y){E，} , z
+W->w(Y){E，} , r
+W->w(Y){E，} , }
+
+I92:
+H->2=YQY， , ;
+
+I93:
+X->2=，YQY; , 2
+X->2=，YQY; , a
+X->2=，YQY; , f
+X->2=，YQY; , h
+X->2=，YQY; , w
+X->2=，YQY; , y
+X->2=，YQY; , z
+X->2=，YQY; , }
+X->2=，Y; , 2
+X->2=，Y; , a
+X->2=，Y; , f
+X->2=，Y; , h
+X->2=，Y; , w
+X->2=，Y; , y
+X->2=，Y; , z
+X->2=，Y; , }
+Y->，2 , *
+Y->，2 , +
+Y->，2 , -
+Y->，2 , /
+Y->，3 , *
+Y->，3 , +
+Y->，3 , -
+Y->，3 , /
+Y->，2 , ;
+Y->，3 , ;
+
+I94:
+W->f(，F){E} , 2
+W->f(，F){E} , a
+W->f(，F){E} , f
+W->f(，F){E} , h
+W->f(，F){E} , w
+W->f(，F){E} , y
+W->f(，F){E} , z
+W->f(，F){E} , }
+F->，H;I;H , )
+H->，2=YQY , ;
+H->，2=Y , ;
+H->，@ , ;
+
+I95:
+W->w(，Y){E} , 2
+W->w(，Y){E} , a
+W->w(，Y){E} , f
+W->w(，Y){E} , h
+W->w(，Y){E} , w
+W->w(，Y){E} , y
+W->w(，Y){E} , z
+W->w(，Y){E} , }
+Y->，2 , )
+Y->，3 , )
+
+I96:
+T->DN，; , 2
+T->DN，; , a
+T->DN，; , f
+T->DN，; , h
+T->DN，; , w
+T->DN，; , y
+T->DN，; , z
+T->DN，; , }
+T->DN，=Y; , 2
+T->DN，=Y; , a
+T->DN，=Y; , f
+T->DN，=Y; , h
+T->DN，=Y; , w
+T->DN，=Y; , y
+T->DN，=Y; , z
+T->DN，=Y; , }
+
+I97:
+W->f(F){E}， , 2
+W->f(F){E}， , a
+W->f(F){E}， , f
+W->f(F){E}， , h
+W->f(F){E}， , w
+W->f(F){E}， , y
+W->f(F){E}， , z
+W->f(F){E}， , r
+W->f(F){E}， , }
+
+I98:
+E->TE， , }
+
+I99:
+E->WE， , }
+
+I100:
+E->XE， , }
+
+I101:
+H->2，=YQY , )
+H->2，=Y , )
+
+I102:
+F->H;I;H， , )
+
+I103:
+S-><=， , 2
+S-><=， , 3
+
+I104:
+S->>=， , 2
+S->>=， , 3
+
+I105:
+A->BC，(){ER} , 2
+A->BC，(){ER} , 3
+
+I106:
+I->YSY， , ;
+
+I107:
+W->w(Y){E}， , 2
+W->w(Y){E}， , a
+W->w(Y){E}， , f
+W->w(Y){E}， , h
+W->w(Y){E}， , w
+W->w(Y){E}， , y
+W->w(Y){E}， , z
+W->w(Y){E}， , r
+W->w(Y){E}， , }
+
+I108:
+X->2=Y，QY; , 2
+X->2=Y，QY; , a
+X->2=Y，QY; , f
+X->2=Y，QY; , h
+X->2=Y，QY; , w
+X->2=Y，QY; , y
+X->2=Y，QY; , z
+X->2=Y，QY; , }
+X->2=Y，; , 2
+X->2=Y，; , a
+X->2=Y，; , f
+X->2=Y，; , h
+X->2=Y，; , w
+X->2=Y，; , y
+X->2=Y，; , z
+X->2=Y，; , }
+Q->，+ , 2
+Q->，+ , 3
+Q->，- , 2
+Q->，- , 3
+Q->，* , 2
+Q->，* , 3
+Q->，/ , 2
+Q->，/ , 3
+
+I109:
+W->f(F，){E} , 2
+W->f(F，){E} , a
+W->f(F，){E} , f
+W->f(F，){E} , h
+W->f(F，){E} , w
+W->f(F，){E} , y
+W->f(F，){E} , z
+W->f(F，){E} , }
+
+I110:
+W->w(Y，){E} , 2
+W->w(Y，){E} , a
+W->w(Y，){E} , f
+W->w(Y，){E} , h
+W->w(Y，){E} , w
+W->w(Y，){E} , y
+W->w(Y，){E} , z
+W->w(Y，){E} , }
+
+I111:
+T->DN;， , 2
+T->DN;， , a
+T->DN;， , f
+T->DN;， , h
+T->DN;， , w
+T->DN;， , y
+T->DN;， , z
+T->DN;， , }
+
+I112:
+T->DN=，Y; , 2
+T->DN=，Y; , a
+T->DN=，Y; , f
+T->DN=，Y; , h
+T->DN=，Y; , w
+T->DN=，Y; , y
+T->DN=，Y; , z
+T->DN=，Y; , }
+Y->，2 , ;
+Y->，3 , ;
+
+I113:
+H->2=，YQY , )
+H->2=，Y , )
+Y->，2 , *
+Y->，2 , +
+Y->，2 , -
+Y->，2 , /
+Y->，3 , *
+Y->，3 , +
+Y->，3 , -
+Y->，3 , /
+Y->，2 , )
+Y->，3 , )
+
+I114:
+A->BC(，){ER} , 2
+A->BC(，){ER} , 3
+
+I115:
+X->2=Y;， , 2
+X->2=Y;， , a
+X->2=Y;， , f
+X->2=Y;， , h
+X->2=Y;， , w
+X->2=Y;， , y
+X->2=Y;， , z
+X->2=Y;， , }
+
+I116:
+X->2=YQ，Y; , 2
+X->2=YQ，Y; , a
+X->2=YQ，Y; , f
+X->2=YQ，Y; , h
+X->2=YQ，Y; , w
+X->2=YQ，Y; , y
+X->2=YQ，Y; , z
+X->2=YQ，Y; , }
+Y->，2 , ;
+Y->，3 , ;
+
+I117:
+W->f(F)，{E} , 2
+W->f(F)，{E} , a
+W->f(F)，{E} , f
+W->f(F)，{E} , h
+W->f(F)，{E} , w
+W->f(F)，{E} , y
+W->f(F)，{E} , z
+W->f(F)，{E} , }
+
+I118:
+W->w(Y)，{E} , 2
+W->w(Y)，{E} , a
+W->w(Y)，{E} , f
+W->w(Y)，{E} , h
+W->w(Y)，{E} , w
+W->w(Y)，{E} , y
+W->w(Y)，{E} , z
+W->w(Y)，{E} , }
+
+I119:
+T->DN=Y，; , 2
+T->DN=Y，; , a
+T->DN=Y，; , f
+T->DN=Y，; , h
+T->DN=Y，; , w
+T->DN=Y，; , y
+T->DN=Y，; , z
+T->DN=Y，; , }
+
+I120:
+Y->2， , *
+Y->2， , +
+Y->2， , -
+Y->2， , /
+Y->2， , )
+
+I121:
+Y->3， , *
+Y->3， , +
+Y->3， , -
+Y->3， , /
+Y->3， , )
+
+I122:
+H->2=Y，QY , )
+H->2=Y， , )
+Q->，+ , 2
+Q->，+ , 3
+Q->，- , 2
+Q->，- , 3
+Q->，* , 2
+Q->，* , 3
+Q->，/ , 2
+Q->，/ , 3
+
+I123:
+A->BC()，{ER} , 2
+A->BC()，{ER} , 3
+
+I124:
+X->2=YQY，; , 2
+X->2=YQY，; , a
+X->2=YQY，; , f
+X->2=YQY，; , h
+X->2=YQY，; , w
+X->2=YQY，; , y
+X->2=YQY，; , z
+X->2=YQY，; , }
+
+I125:
+W->f(F){，E} , 2
+W->f(F){，E} , a
+W->f(F){，E} , f
+W->f(F){，E} , h
+W->f(F){，E} , w
+W->f(F){，E} , y
+W->f(F){，E} , z
+W->f(F){，E} , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I126:
+W->w(Y){，E} , 2
+W->w(Y){，E} , a
+W->w(Y){，E} , f
+W->w(Y){，E} , h
+W->w(Y){，E} , w
+W->w(Y){，E} , y
+W->w(Y){，E} , z
+W->w(Y){，E} , }
+E->，WE , }
+E->，XE , }
+E->，TE , }
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , }
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , }
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , }
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I127:
+T->DN=Y;， , 2
+T->DN=Y;， , a
+T->DN=Y;， , f
+T->DN=Y;， , h
+T->DN=Y;， , w
+T->DN=Y;， , y
+T->DN=Y;， , z
+T->DN=Y;， , }
+
+I128:
+H->2=YQ，Y , )
+Y->，2 , )
+Y->，3 , )
+
+I129:
+A->BC(){，ER} , 2
+A->BC(){，ER} , 3
+E->，WE , r
+E->，WE , }
+E->，XE , r
+E->，XE , }
+E->，TE , r
+E->，TE , }
+E->，@ , r
+E->，@ , }
+W->，w(Y){E} , 2
+W->，w(Y){E} , a
+W->，w(Y){E} , f
+W->，w(Y){E} , h
+W->，w(Y){E} , w
+W->，w(Y){E} , y
+W->，w(Y){E} , z
+W->，w(Y){E} , r
+W->，f(F){E} , 2
+W->，f(F){E} , a
+W->，f(F){E} , f
+W->，f(F){E} , h
+W->，f(F){E} , w
+W->，f(F){E} , y
+W->，f(F){E} , z
+W->，f(F){E} , r
+W->，w(Y){E} , }
+W->，f(F){E} , }
+X->，2=YQY; , 2
+X->，2=YQY; , a
+X->，2=YQY; , f
+X->，2=YQY; , h
+X->，2=YQY; , w
+X->，2=YQY; , y
+X->，2=YQY; , z
+X->，2=YQY; , r
+X->，2=Y; , 2
+X->，2=Y; , a
+X->，2=Y; , f
+X->，2=Y; , h
+X->，2=Y; , w
+X->，2=Y; , y
+X->，2=Y; , z
+X->，2=Y; , r
+X->，2=YQY; , }
+X->，2=Y; , }
+T->，DN; , 2
+T->，DN; , a
+T->，DN; , f
+T->，DN; , h
+T->，DN; , w
+T->，DN; , y
+T->，DN; , z
+T->，DN; , r
+T->，DN=Y; , 2
+T->，DN=Y; , a
+T->，DN=Y; , f
+T->，DN=Y; , h
+T->，DN=Y; , w
+T->，DN=Y; , y
+T->，DN=Y; , z
+T->，DN=Y; , r
+T->，DN; , }
+T->，DN=Y; , }
+D->，a , 2
+D->，z , 2
+D->，y , 2
+D->，h , 2
+
+I130:
+X->2=YQY;， , 2
+X->2=YQY;， , a
+X->2=YQY;， , f
+X->2=YQY;， , h
+X->2=YQY;， , w
+X->2=YQY;， , y
+X->2=YQY;， , z
+X->2=YQY;， , }
+
+I131:
+W->f(F){E，} , 2
+W->f(F){E，} , a
+W->f(F){E，} , f
+W->f(F){E，} , h
+W->f(F){E，} , w
+W->f(F){E，} , y
+W->f(F){E，} , z
+W->f(F){E，} , }
+
+I132:
+W->w(Y){E，} , 2
+W->w(Y){E，} , a
+W->w(Y){E，} , f
+W->w(Y){E，} , h
+W->w(Y){E，} , w
+W->w(Y){E，} , y
+W->w(Y){E，} , z
+W->w(Y){E，} , }
+
+I133:
+H->2=YQY， , )
+
+I134:
+A->BC(){E，R} , 2
+A->BC(){E，R} , 3
+R->，r3; , }
+R->，@ , }
+
+I135:
+W->f(F){E}， , 2
+W->f(F){E}， , a
+W->f(F){E}， , f
+W->f(F){E}， , h
+W->f(F){E}， , w
+W->f(F){E}， , y
+W->f(F){E}， , z
+W->f(F){E}， , }
+
+I136:
+W->w(Y){E}， , 2
+W->w(Y){E}， , a
+W->w(Y){E}， , f
+W->w(Y){E}， , h
+W->w(Y){E}， , w
+W->w(Y){E}， , y
+W->w(Y){E}， , z
+W->w(Y){E}， , }
+
+I137:
+A->BC(){ER，} , 2
+A->BC(){ER，} , 3
+
+I138:
+A->BC(){ER}， , 2
+A->BC(){ER}， , 3
+
